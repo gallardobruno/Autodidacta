@@ -87,8 +87,8 @@ var frase2 = persona4.concat(accion2);
 document.write(frase2);
 
 //como obligar a concatenar numeros sin ue se sumen ?
-var stingsnumber = " " + variable2 + variable8;
-document.write(stingsnumber);
+var stingsNumber = " " + variable2 + variable8;
+document.write(stingsNumber);
 
 //concatenar con ${} y bad tics
 
@@ -100,8 +100,25 @@ document.write(frase3);
 
 //para cerrar, si en la oracion queremos agregar comillas dobles en la oracion o string, debemos poner comillas simples por fuera, o viceversa
 
+//OPERADORES DE COMPARACION, devuelven un valor booleano en cada comparacion
+//let numero = 23;
+//let numero2 = 34;
+//document.write(numero == numero2) son iguales?
+//false
+//document.write(numero != numero2) son distintos?
+//true
+//document.write(numero === numero2) son estrictamente iguales? mismo dato, mismo valor
+//false
+//document.write(numero < numero2) mayor, menor o mayor e igual?
+//true
 
+//OPERADORES LOGICOS, se cumple o no la funcion, resultado booleano
+//let valor = 1;
+//let valor1 = 0;
 
+//let resultado = valor && valor1; and... false
+//let resultado = valor || valor1; or.... true
+//let resultado = !valor1; not........    true
 
 
 
