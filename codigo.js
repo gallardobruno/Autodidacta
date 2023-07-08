@@ -42,7 +42,7 @@ persona3 = "roberto";
 persona4 = " pedro";
 persona5 = "maria";
 
-let accion = "almuerza", accion2 = " juega futbol", accion3 = "trabajando";
+let accion = "almuerza", accion2 = " juega futbol", accion3 = "trabajando", accion4 = "grabando un video";
 
 //HOISTING
 //como funciona cada cosa, como se crea codigo y como se ejecuta, en que orden ?
@@ -92,10 +92,10 @@ document.write(stingsNumber);
 
 //concatenar con ${} y bad tics
 
-var frase3 = `mientras que ${persona5}
- esta ${accion3}`;
+// var frase3 = `mientras que ${persona5}
+//  esta ${accion3}`;
 
-document.write(frase3);
+// document.write(frase3);
 //gracias a las bad tics tambien podremos poner dentro de ellas codigo html `<h1>hola<h1>`
 
 //para cerrar, si en la oracion queremos agregar comillas dobles en la oracion o string, debemos poner comillas simples por fuera, o viceversa
@@ -120,7 +120,33 @@ document.write(frase3);
 //let resultado = valor || valor1; or.... true
 //let resultado = !valor1; not........    true
 
+//CONDICIONALES, un {bloque} se ejecuta, y el condicional hace que un bloque se ejecute solo si una condicion se cumple
+//persona5 = "bruno";
 
+if (10 > 15) {
+    var frase3 = `mientras que ${persona5}
+esta ${accion3}`;
+
+document.write(frase3); 
+}
+
+//como hago para que me muestre otra cosa en caso que no se cumpla la condicion ? con ELSE IF (se pueden poner los else if que quisieramos)
+
+else if (persona5 == "maria") {
+    var frase4 = `mientras que ${persona5}
+    esta ${accion4}`;
+    
+    document.write(frase4); 
+}
+
+//si nada de lo anterior se cumple, hacemos otra cosa (en caso de tener 10 else if y ninguno cumple la condicion), ELSE solo
+//if es uno solo, else if lo que querramos y else solo uno
+
+else {  
+    var frase5 = " volver a escribir "
+
+document.write(frase5); 
+}
 
 
 
